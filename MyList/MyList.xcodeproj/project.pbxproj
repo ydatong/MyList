@@ -17,6 +17,11 @@
 		2E3345DD1E4D977B005A1CAA /* MLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E3345DB1E4D977B005A1CAA /* MLMainViewController.xib */; };
 		2E3345E61E4D9FAE005A1CAA /* MLTargetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3345E41E4D9FAE005A1CAA /* MLTargetCell.m */; };
 		2E3345E71E4D9FAE005A1CAA /* MLTargetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E3345E51E4D9FAE005A1CAA /* MLTargetCell.xib */; };
+		2E3345EA1E4DA2EA005A1CAA /* MLNewTargetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3345E91E4DA2EA005A1CAA /* MLNewTargetController.m */; };
+		2E3345EC1E4DA305005A1CAA /* MLNewTarget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3345EB1E4DA305005A1CAA /* MLNewTarget.storyboard */; };
+		2E3345EF1E4DA981005A1CAA /* MLDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3345EE1E4DA981005A1CAA /* MLDBManager.m */; };
+		2E3345F31E4DB90E005A1CAA /* MLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3345F21E4DB90E005A1CAA /* MLSettingViewController.m */; };
+		2E3345F51E4DB91F005A1CAA /* MLSetting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3345F41E4DB91F005A1CAA /* MLSetting.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,15 @@
 		2E3345E31E4D9FAE005A1CAA /* MLTargetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTargetCell.h; sourceTree = "<group>"; };
 		2E3345E41E4D9FAE005A1CAA /* MLTargetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTargetCell.m; sourceTree = "<group>"; };
 		2E3345E51E4D9FAE005A1CAA /* MLTargetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MLTargetCell.xib; sourceTree = "<group>"; };
+		2E3345E81E4DA2EA005A1CAA /* MLNewTargetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLNewTargetController.h; sourceTree = "<group>"; };
+		2E3345E91E4DA2EA005A1CAA /* MLNewTargetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLNewTargetController.m; sourceTree = "<group>"; };
+		2E3345EB1E4DA305005A1CAA /* MLNewTarget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MLNewTarget.storyboard; sourceTree = "<group>"; };
+		2E3345ED1E4DA981005A1CAA /* MLDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLDBManager.h; sourceTree = "<group>"; };
+		2E3345EE1E4DA981005A1CAA /* MLDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLDBManager.m; sourceTree = "<group>"; };
+		2E3345F01E4DAA43005A1CAA /* MLHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLHeader.pch; sourceTree = "<group>"; };
+		2E3345F11E4DB90E005A1CAA /* MLSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSettingViewController.h; sourceTree = "<group>"; };
+		2E3345F21E4DB90E005A1CAA /* MLSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSettingViewController.m; sourceTree = "<group>"; };
+		2E3345F41E4DB91F005A1CAA /* MLSetting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MLSetting.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,7 @@
 		2E3345A91E4D9436005A1CAA = {
 			isa = PBXGroup;
 			children = (
+				2E3345F01E4DAA43005A1CAA /* MLHeader.pch */,
 				2E3345B41E4D9436005A1CAA /* MyList */,
 				2E3345B31E4D9436005A1CAA /* Products */,
 			);
@@ -106,6 +121,12 @@
 		2E3345D11E4D964B005A1CAA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2E3345E81E4DA2EA005A1CAA /* MLNewTargetController.h */,
+				2E3345E91E4DA2EA005A1CAA /* MLNewTargetController.m */,
+				2E3345EB1E4DA305005A1CAA /* MLNewTarget.storyboard */,
+				2E3345F11E4DB90E005A1CAA /* MLSettingViewController.h */,
+				2E3345F21E4DB90E005A1CAA /* MLSettingViewController.m */,
+				2E3345F41E4DB91F005A1CAA /* MLSetting.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -129,6 +150,8 @@
 		2E3345D41E4D964B005A1CAA /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				2E3345ED1E4DA981005A1CAA /* MLDBManager.h */,
+				2E3345EE1E4DA981005A1CAA /* MLDBManager.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -203,9 +226,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E3345EC1E4DA305005A1CAA /* MLNewTarget.storyboard in Resources */,
 				2E3345C81E4D9436005A1CAA /* LaunchScreen.storyboard in Resources */,
 				2E3345E71E4D9FAE005A1CAA /* MLTargetCell.xib in Resources */,
 				2E3345C51E4D9436005A1CAA /* Assets.xcassets in Resources */,
+				2E3345F51E4DB91F005A1CAA /* MLSetting.storyboard in Resources */,
 				2E3345DD1E4D977B005A1CAA /* MLMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,10 +242,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E3345EA1E4DA2EA005A1CAA /* MLNewTargetController.m in Sources */,
 				2E3345C31E4D9436005A1CAA /* MyList.xcdatamodeld in Sources */,
+				2E3345EF1E4DA981005A1CAA /* MLDBManager.m in Sources */,
 				2E3345E61E4D9FAE005A1CAA /* MLTargetCell.m in Sources */,
 				2E3345DC1E4D977B005A1CAA /* MLMainViewController.m in Sources */,
 				2E3345BA1E4D9436005A1CAA /* AppDelegate.m in Sources */,
+				2E3345F31E4DB90E005A1CAA /* MLSettingViewController.m in Sources */,
 				2E3345B71E4D9436005A1CAA /* main.m in Sources */,
 				2E3345D81E4D96D8005A1CAA /* MLTargetModel.m in Sources */,
 			);
@@ -333,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 38842EP984;
+				GCC_PREFIX_HEADER = /Users/kanewang/Documents/2017/mylist/MyList/MLHeader.pch;
 				INFOPLIST_FILE = MyList/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -346,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 38842EP984;
+				GCC_PREFIX_HEADER = /Users/kanewang/Documents/2017/mylist/MyList/MLHeader.pch;
 				INFOPLIST_FILE = MyList/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
