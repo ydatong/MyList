@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MLMainViewController.h
 //  MyList
 //
 //  Created by kanewang on 2017/2/10.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MLMainViewController : UITableViewController
 
 @end
-
